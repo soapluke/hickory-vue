@@ -15,12 +15,12 @@ export default {
 
 <style>
 
-html, body {
-  background-color: #214023 !important;
+.card {
+  padding: 60px 0 60px 0;
 }
 
-body {
-
+html, body {
+  background-color: #214023 !important;
 }
 
 #app {

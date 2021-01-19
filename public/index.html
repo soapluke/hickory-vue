@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vuex@4.0.0-beta.4/dist/vuex.global.js"></script>
   <title>
     Hickory Open
   </title>
@@ -20,6 +22,25 @@
         Please enable it to continue.</strong>
   </noscript>
   <div id="app"></div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBo8Zo0HaXQ3cV6CwiuTb8FuHSVW3-7TOQ",
+    authDomain: "hickory-vue.firebaseapp.com",
+    projectId: "hickory-vue",
+    storageBucket: "hickory-vue.appspot.com",
+    messagingSenderId: "519835147020",
+    appId: "1:519835147020:web:d53b6969ec85464b414729"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   <!-- built files will be auto injected -->
 </body>
 

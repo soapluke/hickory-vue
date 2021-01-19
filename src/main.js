@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import { Card, Button, Input } from 'ant-design-vue';
+import App from './App';
+import 'ant-design-vue/dist/antd.css';
 
-createApp(App).mount('#app')
+createApp(App).use(Card).use(Button).use(Input).mount('#app')
+
+
